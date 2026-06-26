@@ -1,0 +1,12 @@
+- a horse called valera is going to a party and he got four horseshoes left from the last years and he wants to go to the store to buy some shoes in order to have four different colors of shoes
+- your mission is to calculate the number of the needed shoes to have 4 different colors of shoes
+- in which:
+	- supposing you have "1 7 3 3"
+	- you can create a set (applying the rules of the "mathematical" set in which only unique elements will be there) and append each element in this line into that set
+	- and you will check the length of that set
+	- (4 - the length of that set)
+- in code:
+	- you will create a long long variable to store each element (temporarily)
+	- then initialize a set to append all of the elements using the long long variable
+	- then you will create a loop that runs 4 times and for each operation take user input using the long long variable and inset it in the set
+	- then print (4 - the length of the set)
