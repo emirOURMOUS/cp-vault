@@ -1,0 +1,17 @@
+- there is **n** (n represents the number of the stones) stones on a table in a row (which represents an array) **each of them can be red (R) , green (G) or blue (B)**.
+	- RRG (red stone , red stone , green stone)
+	- GBBR (green stone , blue stone , blue stone , red stone)
+	- GRG (green stone , red stone , green stone)
+- your mission is to calculate the number of the stones that you should **REMOVE** from the table so each neighboring (consecutive) have different colors (not equal).
+- in which:
+	- supposing that you have 3 stones on the table and they are "RRG" (Red , Red , Blue)
+	- you need to calculate how many stones do you need to remove to make each consecutive stones have different colors
+	- in "RRG" as you can see there are two consecutive stones, so you will remove **one** of them.
+	- so we can say for each two consecutive stones you will need to remove one stone which is one operation
+- in code:
+	- you will be in need for two inputs:
+		- the integer n (which indicates the number of the stones (the length of the string))
+		- the string s (which indicates the stones on the table)
+	- you will initialize a counter that counts the number of operations (the number of the stones that you need to remove) (which are done when you meet two consecutives stones that have the same color)
+	- you will loop **n** times on the **s** string checking if two consecutive characters in the **s** string are equal, increment the counter variable by one.
+	- output the variable counter value
