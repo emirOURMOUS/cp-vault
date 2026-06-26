@@ -1,0 +1,3 @@
+- explaning the problem's statement
+- explaining some problem's inputs and trying to map them with some explanation
+- explaining the code
